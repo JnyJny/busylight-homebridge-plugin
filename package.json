@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "Busylight For Humans™",
+  "name": "homebridge-busylight-for-humans",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Provides access to USB attached lights via Busylight for Humans™",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/JnyJny/busylight-homebridge-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/JnyJny/busylight-homebridge-plugin/issues"
   },
   "engines": {
     "node": ">=10.17.0",
@@ -24,7 +24,8 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "Busylight for Humans™"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -32,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
     "eslint": "^7.11.0",
-    "homebridge": "^1.2.2",
+    "homebridge": "^1.2.3",
     "nodemon": "^2.0.5",
     "rimraf": "^3.0.2",
     "ts-node": "^9.0.0",
