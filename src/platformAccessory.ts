@@ -1,11 +1,14 @@
-import { Service, PlatformAccessory, CharacteristicValue, CharacteristicSetCallback, CharacteristicGetCallback } from 'homebridge';
+import { Service, PlatformAccessory, CharacteristicValue,
+CharacteristicSetCallback, CharacteristicGetCallback } from
+'homebridge';
 
 import { ExampleHomebridgePlatform } from './platform';
 
 /**
  * Platform Accessory
- * An instance of this class is created for each accessory your platform registers
- * Each accessory may expose multiple services of different service types.
+ * An instance of this class is created for each accessory your
+ * platform registers Each accessory may expose multiple services of
+ * different service types.
  */
 export class ExamplePlatformAccessory {
   private service: Service;
